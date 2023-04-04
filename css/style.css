@@ -48,6 +48,11 @@
     color: white;
 }
 
+.blue-white{
+    color: white;
+    background-color: #8ea1e1;
+}
+
 header{
     background-image:url(../img/jumbo.png);
     background-size: cover;
@@ -110,7 +115,6 @@ header .jumbotron .hero button{
     margin: 0 15px;
 }
 
-
 main .news .img-box{
     width: 60%;
 }
@@ -153,46 +157,68 @@ main .poster .poster-box h3{
     margin-bottom: 30px;
 }
 
-main .poster .poster-box button{
-    color: white;
-    background-color: #8ea1e1;
-}
-
 footer{
     background-color: #23272a;
 }
 
 footer .footer-menu{
-    border-bottom: 2px solid #a9a9a9;
-    padding: 10px 0 30px 0;
+    border-bottom: 1px solid #728adc;;
+    padding: 70px 0 30px 0;
 }
 
 footer .footer-menu aside{
-    height: 600px;
-    background-color: #f08080;
     width: 30%;
 }
 
+footer .footer-menu aside .title{
+    font-size: 2.5rem;
+    color: #728adc;
+    padding-bottom: 35px;
+}
+
+footer .footer-menu aside .language-menu{
+    color: white;
+    font-size: 1rem;
+    display: inline;
+}
+
+footer .footer-menu aside > img:first-of-type{
+    height: 1rem;
+    vertical-align: middle;
+}
+
+footer .footer-menu aside > img:last-of-type{
+    width: 0.4rem;
+    transform: rotate(90deg);
+}
+
+footer .footer-menu aside .icon-box img{
+    height: 20px;
+    margin: 20px 20px 0 0;
+}
+
 footer .footer-menu ul{
-    height: 600px;
-    background-color: #20b2aa;
     width: calc(70% / 4);
-    border-color: white;
+    list-style: none;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+footer .footer-menu ul li{
+    line-height: 2rem;
+}
+
+footer .footer-menu ul li:first-child{
+    color: #728adc;
 }
 
 footer .footer-nav{
-    padding-top: 20px;
+    padding: 50px 0 80px 0;
 }
 
 footer .footer-nav nav{
-    background-color: #7fffd4;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
     width: 100%;
-}
-
-footer .footer-nav nav a{
-    background-color: #ffb6c1;
-    padding: 10px;
 }
