@@ -1,13 +1,9 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-.dashed-border{
-    border: 2px black dashed;
-
+    font-family: 'Cabin', sans-serif;
 }
 
 .main-padding{
@@ -15,65 +11,102 @@
 }
 
 .container-size{
-    max-width: 1000px;
+    max-width: 1300px;
 }
 
 .margin-center{
     margin: 0 auto;
 }
 
-a{
-    text-decoration: none;
-    color: black
-}
-
 .flex{
     display: flex;
 }
 
+.small-btn{
+    border: none;
+    padding: 10px 13px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.big-btn{
+    border: none;
+    padding: 15px 19px;
+    border-radius: 30px;
+    font-size: 23px;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
 header{
-    background-color: #add8e6;
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
 }
 
 header nav{
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 header nav ul{
     list-style: none;
-    background-color: #daa520;
     padding: 10px;
-
+    font-size: 1.3rem;
 }
 
 header nav .logo{
-    width: 25%;
+    width: 20%;
 }
 
 header nav .nav-bar{
     display: flex;
-    width: 50%;
+    width: 60%;
     justify-content: center;
 }
 
-header nav .nav-bar li{
-    margin: 0 5px;
+header nav .nav-bar li a{
+    padding: 0 1.3rem;
+    color: white;
+    text-decoration: none;
 }
 
 header nav .login{
-    width: 25%;
+    width: 20%;
     text-align: right;
 }
 
 header .jumbotron{
-    background-color: #00008b;
+    padding: 130px 0;
 }
 
-header .jumbotron .jumbo-box{
-    height: 400px;
-    width: 800px;
-    background-color: #ee82ee;
+header .jumbotron .hero{
+    max-width: 800px;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
 }
+
+header .jumbotron .hero .title{
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+header .jumbotron .hero .subtitle{
+    line-height: 34px;
+    margin-bottom: 20px; 
+}
+
+header .jumbotron .hero button{
+    margin: 0 15px;
+}
+
 
 main .news article{
     height: 550px;
